@@ -14,13 +14,19 @@ def drawsq(some_turtle):
         counter += 1
 '''
 
-def drawsq(some_turtle):
+def bigdiamond(pen):
 
-    for i in range(1,4):
-        some_turtle.forward(200)
-        some_turtle.right(120)
-        some_turtle.forward(200)
-        some_turtle.right(60)
+    for i in range(3):
+        pen.forward(300)
+        pen.right(180)
+
+
+def smalldiamond(pen):
+
+    for i in range(3):
+        pen.forward(200)
+        pen.right(120)
+
 
 def draw_art():
     window = turtle.Screen()
@@ -31,11 +37,30 @@ def draw_art():
     brad.shape("turtle")
     brad.color("white")
     brad.width(1)
-    brad.speed(75)
-    for i in range(1,37):
-        drawsq(brad)
-        brad.right(10)
+    brad.speed("fastest")
+    for i in range(72):
+        smalldiamond(brad)
+        brad.right(5)
+
+        bigdiamond(brad)
+        brad.right(5)
+    #brad.right(350)
+
+#    for j in range(72):
+#       bigdiamond(brad)
+#        brad.right(5)
+
 
     window.exitonclick()
 
+
+def print_menu():
+    print("Hello! Choose a design from below - ")
+    print("1. Shapes of triangles.")
+    print("2. Shapes of rhombus.")
+    print("3. Shapes of squares.")
+    print("4. Shapes of pentagons.")
+    print("5. Shapes of hexagons.")
+
+print_menu()
 draw_art()
