@@ -21,7 +21,7 @@ elif decision == "no":
 '''
 
 def hello(name):
-    now = time.strftime("%c")
+    now = time.strftime("%a, %d %b %Y %H:%M:%S")
     print("Hello World!")
     print("Hello " + name + "! It is " + now + " now. Have a great day!")
 
