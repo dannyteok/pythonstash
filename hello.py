@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import time
+
 ## This is one way of doing this. Another way is to using function
 '''
 print("Hello World!")
@@ -19,8 +21,9 @@ elif decision == "no":
 '''
 
 def hello(name):
+    now = time.strftime("%c")
     print("Hello World!")
-    print("Hello " + name + "!")
+    print("Hello " + name + "! It is " + now + " now. Have a great day!")
 
 inputname = input("What is your name? ")
 hello(inputname)
