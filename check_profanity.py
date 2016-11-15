@@ -3,6 +3,8 @@
 # Open file to read
 
 # Search through all words to compare against a list of predefined profanity words. Return "Profanity Alert" upon match"
+# This could serve to be useful to decrypt a data file where values in columns are encrypted. Recall David's
+# ad-hoc task for BMW.
 
 import urllib
 
