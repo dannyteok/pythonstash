@@ -25,8 +25,10 @@ frozen = media.Movie("Frozen"
 
 #need to put all movies into an array
 movies = [toy_story, avatar, schoolofrock, frozen]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
 
+print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
 
 #print(avatar.trailer_youtube_url)
 #print(avatar.storyline)
