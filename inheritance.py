@@ -6,6 +6,12 @@ class Parent():
         self.last_name = last_name
         self.eye_color = eye_color
 
+    def show_info(self):
+        print("Part of the parent class I will show you the the following INFORMATION --")
+        print("Showing Information: Last name:" + self.last_name
+              + ", and Eye color: " + self.eye_color)
+        print("###########################################")
+
 
 class Child(Parent):
     """ This is the child class.
@@ -17,11 +23,27 @@ class Child(Parent):
         Parent.__init__(self, last_name, eye_color)
         self.num_of_toys = num_of_toys
 
-#amanda_pip = Parent("Pip", "Green")
-brad_pip = Child("Rosalove", "Blue", 9)
+    def show_info(self):
+        print("The child's last name is: "
+              + self.last_name
+              + ", having "
+              + self.eye_color.lower()
+              + " eyes, and has "
+              + str(self.num_of_toys) + " toy(s) in possession.")
+
+        print("This part of show_info belongs to the Child's class, which will be shown because"
+              "it overrides the parent's show_info.")
+
+
+amanda_pip = Parent("Pip", "BROWN")
+amanda_pip.show_info()
+
+brad_pip = Child("Rosalove", "GREEN", 9)
 #print(amanda_pip.last_name)
 print(brad_pip.last_name)
 print(brad_pip.num_of_toys)
+brad_pip.show_info()
+
 
 
 """
