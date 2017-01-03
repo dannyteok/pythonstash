@@ -2,6 +2,7 @@
 # Desc  : Coursera Assignment 4.6 - Functions
 
 
+# Function to calculate gross pay
 def computepay(h, r):
     if h <= 40.0:
         return h * r
@@ -12,4 +13,4 @@ hrs = float(raw_input("Enter hours worked = "))
 rate = float(raw_input("Enter rates per hour = "))
 
 p = computepay(hrs, rate)
-print "Pay", p
+print "Pay", unichr(163), p
