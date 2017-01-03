@@ -15,7 +15,8 @@ print("Type \"done\" to quit.")
 while True:
 
     num = raw_input("Enter a number: ")
-    if num == "done": break
+    if num == "done":
+        break
 
     try:
         var = float(num)
