@@ -7,7 +7,10 @@ Convert the extracted value to a floating point number and print it out.
 Desired output: 0.8475
 '''
 
+
+# String with some data to extract from
 text = "X-DSPAM-Confidence:    0.8475    ";
+
 x = text.find(':')
 y = text[x:]
 z = y.split()                   # split() is a string function that removes whitespaces, tabs, or newlines.
