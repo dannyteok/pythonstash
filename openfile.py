@@ -12,4 +12,6 @@ for line in fhand:
         continue
     print line
 
+fhand.close()
+
 
