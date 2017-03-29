@@ -49,6 +49,12 @@ def parse_values(values, outfile):
                         strict=True
     )
 
+'''
+## Specify tab delimiter to write out. Replace line below
+
+    writer = csv.writer(outfile, delimiter='\t',
+                            quoting=csv.QUOTE_MINIMAL)
+'''
     writer = csv.writer(outfile, quoting=csv.QUOTE_MINIMAL)
     for reader_row in reader:
         for column in reader_row:
@@ -96,6 +102,7 @@ def parse_values(values, outfile):
 def main():
     """
     Parse arguments and start the program
+    Usage: python mysqldump_to_csv.py /path/to/dump.sql
     """
     # Iterate over all lines in all files
     # listed in sys.argv[1:]
