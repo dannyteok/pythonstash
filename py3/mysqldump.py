@@ -6,7 +6,7 @@
 
 import os
 import time
-import datetime
+import sys
 
 DBHOST = 'rdsjavaworksdev.ccctouzcrhfl.us-east-1.rds.amazonaws.com'
 DBUSER = 'replication'
