@@ -14,7 +14,7 @@ rm -rf /opt/etl-dwh/outgoing/output
 mkdir -p /opt/etl-dwh/outgoing/import
 mkdir -p /opt/etl-dwh/outgoing/output
 
-./init.py
+python main_dbdump.py
 
 rm -rf output/*.tsv
 aws s3 cp --recursive --region $region s3://$bucketname/ output/
