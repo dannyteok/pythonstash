@@ -8,11 +8,11 @@ bucketname="abcxyzchristest"
 region="eu-central-1"
 
 # Clear any potential old data
-rm -rf import
-rm -rf output
+rm -rf /opt/etl-dwh/outgoing/import
+rm -rf /opt/etl-dwh/outgoing/output
 
-mkdir import
-mkdir output
+mkdir -p /opt/etl-dwh/outgoing/import
+mkdir -p /opt/etl-dwh/outgoing/output
 
 ./init.py
 
