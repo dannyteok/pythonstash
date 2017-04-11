@@ -1,9 +1,16 @@
 # Requirements
-Required apts: mysql-client, python-pymysql, python3-mysql, pip, python3-mysqldb, python3-mysql.connector, python-mysqldb
+Required apts: 
+
+mysql-client, python-pymysql, python3-mysql, pip, python3-mysqldb, python3-mysql.connector, python-mysqldb
+
 Get aws cli: $ pip install --upgrade --user awscli
+
 Configure aws cli - this can be done by running through the wizard with `aws configure`
+
 Check path to aws cli: which aws
+
 Set aws cli path to $PATH: echo "export PATH=~/.local/bin:$PATH" >> $HOME/.profile
+
 python mysqlclient library installed
 
 #Configuration
