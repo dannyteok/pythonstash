@@ -1,0 +1,127 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://nationalrail.co.uk/xml/common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ChangedBy" type="xs:string"/>
+  <xs:element name="LastChangedDate" type="xs:dateTime"/>
+  <xs:element name="PostalAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="add:A_5LineAddress" xmlns:add="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Annotation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Note"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Available" type="xs:string"/>
+  <xs:element name="Open">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DayAndTimeAvailability" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DayTypes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="MondayToFriday" minOccurs="0"/>
+                    <xs:element type="xs:string" name="Saturday" minOccurs="0"/>
+                    <xs:element type="xs:string" name="Sunday" minOccurs="0"/>
+                    <xs:element type="xs:string" name="MondayToSunday" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="OpeningHours">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="OpenPeriod" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:time" name="StartTime"/>
+                          <xs:element type="xs:time" name="EndTime"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Unavailable" minOccurs="0"/>
+                    <xs:element type="xs:string" name="TwentyFourHours" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContactDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PrimaryTelephoneNumber" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="TelNationalNumber"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Annotation" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Note"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PostalAddress" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="add:Line" maxOccurs="unbounded" minOccurs="0" xmlns:add="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="Url"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OperatorName" type="xs:string"/>
+  <xs:element name="Exists" type="xs:string"/>
+  <xs:element name="UsageType" type="xs:string"/>
+  <xs:element name="CrsCode" type="xs:string"/>
+  <xs:element name="DayAndTimeAvailability">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DayTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="MondayToSunday"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OpeningHours">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OpenPeriod">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:time" name="StartTime"/>
+                    <xs:element type="xs:time" name="EndTime"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Note"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Note" type="xs:string"/>
+</xs:schema>
+

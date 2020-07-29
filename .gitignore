@@ -1,0 +1,12 @@
+# Python cache files
+*pycache__
+*.env
+*.pyc
+
+# Directories
+data/*
+
+# Other files
+*.xml
+*.xls
+*.xlsx

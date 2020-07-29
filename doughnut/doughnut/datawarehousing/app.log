@@ -1,0 +1,94 @@
+2020-07-25 23:04:02,004 - __main__ (67) - INFO     - MainThread   - Hello World
+2020-07-25 23:04:36,517 - __main__ (67) - INFO     - MainThread   - Hello World
+2020-07-25 23:04:44,376 - root (67) - INFO     - MainThread   - Hello World
+2020-07-25 23:05:16,881 - root (67) - INFO     - MainThread   - Hello World
+2020-07-25 23:05:46,807 - root (69) - INFO     - MainThread   - Hello World
+2020-07-25 23:05:46,808 - root (70) - INFO     - MainThread   - Request from dt-sys-eu handled in 11.000 ms
+2020-07-25 23:05:46,808 - root (71) - INFO     - MainThread   - Request from 127.0.0.1 handled in 33.100 ms
+2020-07-25 23:05:46,808 - root (72) - INFO     - MainThread   - My favorite drinks are milk, wine, tea, beer
+2020-07-25 23:05:46,808 - root (73) - DEBUG    - MainThread   - this is a DEBUG message
+2020-07-25 23:05:46,808 - root (74) - INFO     - MainThread   - this is a INFO message
+2020-07-25 23:05:46,808 - root (75) - WARNING  - MainThread   - this is a WARNING message
+2020-07-25 23:05:46,808 - root (76) - ERROR    - MainThread   - this is a ERROR message
+2020-07-25 23:05:46,808 - root (77) - CRITICAL - MainThread   - this is a CRITICAL message
+2020-07-25 23:05:46,808 - root (78) - INFO     - MainThread   - Does old-style formatting also work? True it is, but no colors (yet)
+2020-07-25 23:08:29,458 - root (69) - INFO     - MainThread   - Hello World
+2020-07-25 23:08:29,458 - root (70) - INFO     - MainThread   - Request from dt-sys-eu handled in 11.000 ms
+2020-07-25 23:08:29,458 - root (71) - INFO     - MainThread   - Request from 127.0.0.1 handled in 33.100 ms
+2020-07-25 23:08:29,458 - root (72) - INFO     - MainThread   - My favorite drinks are milk, wine, tea, beer
+2020-07-25 23:08:29,459 - root (73) - DEBUG    - MainThread   - this is a DEBUG message
+2020-07-25 23:08:29,459 - root (74) - INFO     - MainThread   - this is a INFO message
+2020-07-25 23:08:29,459 - root (75) - WARNING  - MainThread   - this is a WARNING message
+2020-07-25 23:08:29,459 - root (76) - ERROR    - MainThread   - this is an ERROR message
+2020-07-25 23:08:29,459 - root (77) - CRITICAL - MainThread   - this is a CRITICAL message
+2020-07-25 23:08:29,459 - root (78) - INFO     - MainThread   - Does old-style formatting also work? True it is, but no colors (yet)
+2020-07-25 23:08:38,917 - root (69) - INFO     - MainThread   - Hello World
+2020-07-25 23:08:38,917 - root (70) - INFO     - MainThread   - Request from dt-sys-eu handled in 11.000 ms
+2020-07-25 23:08:38,917 - root (71) - INFO     - MainThread   - Request from 127.0.0.1 handled in 33.100 ms
+2020-07-25 23:08:38,917 - root (72) - INFO     - MainThread   - My favorite drinks are milk, wine, tea, beer
+2020-07-25 23:08:38,917 - root (73) - DEBUG    - MainThread   - this is a DEBUG message
+2020-07-25 23:08:38,917 - root (74) - INFO     - MainThread   - this is a INFO message
+2020-07-25 23:08:38,917 - root (75) - WARNING  - MainThread   - this is a WARNING message
+2020-07-25 23:08:38,917 - root (76) - ERROR    - MainThread   - this is an ERROR message
+2020-07-25 23:08:38,917 - root (77) - CRITICAL - MainThread   - this is a CRITICAL message
+2020-07-25 23:08:38,917 - root (78) - INFO     - MainThread   - Does old-style formatting also work? True it is, but no colors (yet)
+2020-07-25 23:09:03,988 - root (69) - INFO     - MainThread   - Hello World
+2020-07-25 23:09:03,988 - root (70) - INFO     - MainThread   - Request from dt-sys-eu handled in 11.000 ms
+2020-07-25 23:09:03,988 - root (71) - INFO     - MainThread   - Request from 127.0.0.1 handled in 33.100 ms
+2020-07-25 23:09:03,988 - root (72) - INFO     - MainThread   - My favorite drinks are milk, wine, tea, beer
+2020-07-25 23:09:03,988 - root (73) - DEBUG    - MainThread   - this is a DEBUG message
+2020-07-25 23:09:03,988 - root (74) - INFO     - MainThread   - this is a INFO message
+2020-07-25 23:09:03,988 - root (75) - WARNING  - MainThread   - this is a WARNING message
+2020-07-25 23:09:03,988 - root (76) - ERROR    - MainThread   - this is an ERROR message
+2020-07-25 23:09:03,988 - root (77) - CRITICAL - MainThread   - this is a CRITICAL message
+2020-07-25 23:09:03,989 - root (78) - INFO     - MainThread   - Does old-style formatting also work? True it is, but no colors (yet)
+2020-07-25 23:09:17,045 - root (69) - INFO     - MainThread   - Hello World
+2020-07-25 23:09:17,045 - root (70) - INFO     - MainThread   - Request from dt-sys-eu handled in 11.000 ms
+2020-07-25 23:09:17,045 - root (71) - INFO     - MainThread   - Request from 127.0.0.1 handled in 33.100 ms
+2020-07-25 23:09:17,045 - root (72) - INFO     - MainThread   - My favorite drinks are milk, wine, tea, beer
+2020-07-25 23:09:17,045 - root (73) - DEBUG    - MainThread   - this is a DEBUG message
+2020-07-25 23:09:17,045 - root (74) - INFO     - MainThread   - this is a INFO message
+2020-07-25 23:09:17,045 - root (75) - WARNING  - MainThread   - this is a WARNING message
+2020-07-25 23:09:17,045 - root (76) - ERROR    - MainThread   - this is an ERROR message
+2020-07-25 23:09:17,046 - root (77) - CRITICAL - MainThread   - this is a CRITICAL message
+2020-07-25 23:09:17,046 - root (78) - INFO     - MainThread   - Does old-style formatting also work? True it is, but no colors (yet)
+2020-07-25 23:09:45,499 - root (69) - INFO     - MainThread   - Hello World
+2020-07-25 23:09:45,499 - root (70) - INFO     - MainThread   - Request from dt-sys-eu handled in 11.000 ms
+2020-07-25 23:09:45,500 - root (71) - INFO     - MainThread   - Request from 127.0.0.1 handled in 33.100 ms
+2020-07-25 23:09:45,500 - root (72) - INFO     - MainThread   - My favorite drinks are milk, wine, tea, beer
+2020-07-25 23:09:45,500 - root (73) - DEBUG    - MainThread   - this is a DEBUG message
+2020-07-25 23:09:45,500 - root (74) - INFO     - MainThread   - this is a INFO message
+2020-07-25 23:09:45,500 - root (75) - WARNING  - MainThread   - this is a WARNING message
+2020-07-25 23:09:45,500 - root (76) - ERROR    - MainThread   - this is an ERROR message
+2020-07-25 23:09:45,500 - root (77) - CRITICAL - MainThread   - this is a CRITICAL message
+2020-07-25 23:09:45,500 - root (78) - INFO     - MainThread   - Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+this is a {} message
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Making contact
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Making contact
+Hello World
+Does old-style formatting also work? True it is, but no colors (yet)
+Hello world! This is info level
+Printing numbers to screen
+I see everything!
+Something went wrong and I'm raising an error!
+Optional file not present. Proceeding as default instruction!
+hacker alert! Burn EVERYTHING!

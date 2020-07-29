@@ -1,0 +1,4 @@
+textblob==0.15.3
+pytest-xdist==1.32.0
+pygyver==0.1.0.4
+PyYAML==5.3.1
