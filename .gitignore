@@ -5,6 +5,7 @@
 
 # Directories
 data/*
+.idea/*
 
 # Other files
 *.xml
