@@ -6,8 +6,10 @@
 # Directories
 data/*
 .idea/*
+__pycache__/*
 
 # Other files
+*.pyc
 *.xml
 *.xls
 *.xlsx
