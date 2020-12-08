@@ -42,9 +42,9 @@ plt.ylabel('Count')
 # we need to cross-ref ratings info with movie informatoin in movies.dat.
 
 cols = ['movie id', 'movie title', 'genre']
-movies = pd.read_csv('../../data/MovieTweetings/latest/movies.dat', sep='::',
-                    index_col=False, names=cols, engine='python',
-                    encoding="UTF-8")
+movies = pd.read_csv('../../../data/MovieTweetings/latest/movies.dat', sep='::',
+                     index_col=False, names=cols, engine='python',
+                     encoding="UTF-8")
 
 movies[:50]
 

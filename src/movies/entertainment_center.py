@@ -1,5 +1,4 @@
 import media
-import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story"
                         , "A story of a boy and his toy that comes to life"
@@ -14,9 +13,9 @@ avatar = media.Movie("Avatar"
                      , "http://www.youtube.com/watch?v=5PSNL1qE6VY")
 
 schoolofrock = media.Movie("School of Rock"
-                     , "Using rock music to earn through university college degree"
-                     , "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg"
-                     , "https://www.youtube.com/watch?v=XCwy6lW5Ixc")
+                           , "Using rock music to earn through university college degree"
+                           , "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg"
+                           , "https://www.youtube.com/watch?v=XCwy6lW5Ixc")
 
 frozen = media.Movie("Frozen"
                      , "One of two sisters is a frozen queen uses her powers to save her home"
