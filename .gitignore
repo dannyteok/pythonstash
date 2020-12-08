@@ -8,6 +8,9 @@ data/*
 .idea/*
 __pycache__/*
 
+# this repo
+requirements.in
+
 # Other files
 *.pyc
 *.xml
