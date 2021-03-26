@@ -87,7 +87,7 @@ pyrsistent==0.17.3        # via jsonschema
 pytest==6.1.2             # via -r requirements.in
 python-dateutil==2.8.1    # via botocore, jupyter-client, pandas
 pytz==2020.4              # via google-api-core, pandas, twilio
-pyyaml==5.3.1             # via -r requirements.in, libcst
+pyyaml==5.4             # via -r requirements.in, libcst
 pyzmq==20.0.0             # via jupyter-client, notebook, qtconsole
 qtconsole==5.0.1          # via jupyter
 qtpy==1.9.0               # via qtconsole
