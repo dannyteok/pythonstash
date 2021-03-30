@@ -80,7 +80,7 @@ pyasn1-modules==0.2.8     # via google-auth, oauth2client
 pyasn1==0.4.8             # via oauth2client, pyasn1-modules, rsa
 pycparser==2.20           # via cffi
 pydata-google-auth==1.1.0  # via pandas-gbq
-pygments==2.7.3           # via ipython, jupyter-console, jupyterlab-pygments, nbconvert, qtconsole
+pygments==2.7.4           # via ipython, jupyter-console, jupyterlab-pygments, nbconvert, qtconsole
 pyjwt==1.7.1              # via twilio
 pyparsing==2.4.7          # via packaging
 pyrsistent==0.17.3        # via jsonschema
