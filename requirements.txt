@@ -111,7 +111,7 @@ traitlets==5.0.5          # via ipykernel, ipython, ipywidgets, jupyter-client, 
 twilio==6.49.0            # via -r requirements.in
 typing-extensions==3.7.4.3  # via libcst, typing-inspect
 typing-inspect==0.6.0     # via libcst
-urllib3==1.26.2           # via botocore, requests
+urllib3==1.26.4           # via botocore, requests
 wcwidth==0.2.5            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
 widgetsnbextension==3.5.1  # via ipywidgets
