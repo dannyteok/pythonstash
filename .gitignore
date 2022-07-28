@@ -4,12 +4,9 @@
 *.pyc
 
 # Directories
-data/*
 .idea/*
 __pycache__/*
-
-# this repo
-requirements.in
+pythonstash/*
 
 # Other files
 *.pyc
